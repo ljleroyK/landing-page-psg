@@ -1,0 +1,37 @@
+.banner{
+	height: 70vh;
+	background-image: url("../images/banner.jpeg");
+	background-size: cover;
+	background-position: right;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.banner h1 {
+	text-shadow: 1px 1px 12px red;
+	font-size: 48px;
+}
+
+.banner h2 {
+	text-shadow: 1px 1px 12px red;
+	font-size: 24px;
+	font-weight: 200;
+}
+
+.banner-fixed{
+	height: 35vh;
+	background-image: url("../images/banner.jpg");
+	margin: 48px 0;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+@media (min-width: 576px) {
+	.banner {
+		background-position: center;
+	}
+}

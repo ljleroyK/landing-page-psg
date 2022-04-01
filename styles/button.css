@@ -1,0 +1,19 @@
+.button-red{
+	background-color: red;
+	color: white;
+	padding: 12px 8px;
+	border-radius: 6px;
+	font-weight: bold;
+	margin: 16px auto;
+	display: block;
+	width: 20%;
+	border:  1px solid red;
+	transition: 0.5s;
+	text-align: center;
+}
+
+.button-red:hover {
+	background-color: rgba(256, 0, 0, 0.4);
+	color: white;
+	transition: 0.5s;
+}
